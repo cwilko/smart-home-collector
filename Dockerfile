@@ -1,6 +1,6 @@
 FROM cwilko/telegraf:1.13.2-alpine-arm32v7
 
-RUN apk add speedtest-cli
+RUN apk add python speedtest-cli 
 
 ENV PYTHONUNBUFFERED=1
 
