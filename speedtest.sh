@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin
 
 timestamp=$(date +%s%N)
 
