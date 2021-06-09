@@ -1,6 +1,6 @@
 FROM cwilko/telegraf:latest
 
-RUN apk add coreutils python speedtest-cli 
+RUN apk add coreutils speedtest-cli 
 
 ENV PYTHONUNBUFFERED=1
 
