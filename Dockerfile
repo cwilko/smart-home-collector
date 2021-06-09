@@ -1,4 +1,4 @@
-FROM cwilko/telegraf:1.13.2-alpine-arm32v7
+FROM cwilko/telegraf:latest
 
 RUN apk add coreutils python speedtest-cli 
 
